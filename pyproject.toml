@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conceptprism"
+version = "1.0.0"
+description = "ConceptPrism: Concept Disentanglement in Personalized Diffusion Models via Residual Token Optimization"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Minseo Kim" },
+    { name = "Minchan Kwon" },
+    { name = "Dongyeun Lee" },
+    { name = "Yunho Jeon" },
+    { name = "Junmo Kim" },
+]
+keywords = [
+    "diffusion-models",
+    "personalization",
+    "text-to-image",
+    "concept-disentanglement",
+    "stable-diffusion",
+    "flux",
+]
+
+[tool.setuptools]
+packages = ["conceptprism"]

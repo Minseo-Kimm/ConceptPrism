@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Training / inference outputs
+runs/
+checkpoints/
+wandb/
+logs/
+
+# Environment / secrets
+.env
+*.lock
+
+# Optional: HuggingFace + diffusers caches if anyone runs from inside the repo
+.cache/

@@ -1,0 +1,23 @@
+# Tested with Python 3.10 / PyTorch 2.4 / CUDA 12.1.
+# torch / torchvision are intentionally not pinned; install the build that matches
+# your CUDA version, e.g.
+#   pip install torch==2.4.0 torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.1
+torchvision
+
+transformers>=4.41
+diffusers>=0.30
+accelerate>=0.31
+peft>=0.11
+safetensors
+huggingface_hub
+sentencepiece
+Pillow
+tqdm
+numpy
+
+# 4-bit FLUX
+bitsandbytes>=0.43
+
+# Caption generation for new concepts (scripts/generate_init_prompts.py)
+google-generativeai>=0.7
