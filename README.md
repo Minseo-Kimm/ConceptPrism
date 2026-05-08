@@ -1,8 +1,10 @@
 # ConceptPrism: Concept Disentanglement in Personalized Diffusion Models via Residual Token Optimization
 
+[![arXiv](https://img.shields.io/badge/arXiv-2602.19575-b31b1b.svg)](https://arxiv.org/abs/2602.19575)
+
 Official PyTorch implementation of our **CVPR 2026** paper.
 
-> Minseo Kim, Minchan Kwon, Dongyeun Lee, Yunho Jeon, Junmo Kim. *ConceptPrism: Concept Disentanglement in Personalized Diffusion Models via Residual Token Optimization*. CVPR 2026.
+> Minseo Kim, Minchan Kwon, Dongyeun Lee, Yunho Jeon, Junmo Kim. *ConceptPrism: Concept Disentanglement in Personalized Diffusion Models via Residual Token Optimization*. CVPR 2026. [[arXiv]](https://arxiv.org/abs/2602.19575)
 
 ![ConceptPrism pipeline](assets/method.png)
 
